@@ -15,7 +15,7 @@ class Storage {
         newArr.push(item);
       }
     }
-    return (this.items = newArr);
+    this.items = newArr;
   }
 }
 
